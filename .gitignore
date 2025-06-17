@@ -1,0 +1,85 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environment
+.venv/
+.env
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Editor/IDE files
+.idea/  # IntelliJ IDEA / PyCharm
+*.iml
+.vscode/ # VS Code
+.history/ # VS Code local history
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+.buildpath
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Package management
+# pip
+pip-log.txt
+pip-log.html
+
+# Poetry
+.poetry/
+
+# Conda
+.conda/
+.ipynb_checkpoints/ # Jupyter Notebook checkpoints
+
+# Sphinx documentation
+docs/_build/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+
+# MyPy
+.mypy_cache/
+
+# Pyright
+.pyright/
+
+# Black (formatter cache)
+.black_cache/
+
+# Bandit (security linter cache)
+.bandit/
+
+# Ruff (linter cache)
+.ruff_cache/
+
+# Compiled objects
+*.so
+
+# Distribution / Packaging
+*.egg
+*.whl
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
